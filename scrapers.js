@@ -1,6 +1,8 @@
 const rp = require("request-promise");
 const url = "https://www.efteling.com/en/park/tickets";
 
+console.log('Starting...')
+
 setInterval(() => {
   rp(url).then(function (html) {
     if (
