@@ -1,0 +1,23 @@
+{
+  "name": "efteling-checker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "scrapers.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run": "node scrapers.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/3n1k0/Efteling-Checker.git"
+  },
+  "author": "Eniko Kosztolanyi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/3n1k0/Efteling-Checker/issues"
+  },
+  "homepage": "https://github.com/3n1k0/Efteling-Checker#readme",
+  "dependencies": {
+    "request-promise": "^4.2.5"
+  }
+}
